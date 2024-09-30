@@ -7,7 +7,7 @@ body {
 #es-garnier.es-garnier {
   font-family: 'Montserrat', Tahoma, Verdana, sans-serif;
   overflow: hidden;
-  max-width: 769px;
+  max-width: 731px;
   margin: auto;
 }
 #es-garnier.es-garnier * {
@@ -39,7 +39,7 @@ body {
   background-color: #d9ecca;
   position: relative;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-line--3:after {
     content: '';
     position: absolute;
@@ -54,12 +54,12 @@ body {
     z-index: 1;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-line--3:after {
     right: -9%;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv {
     display: flex;
     position: relative;
@@ -73,7 +73,7 @@ body {
     z-index: 2;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv .es-title {
     font-size: 26px;
   }
@@ -81,7 +81,7 @@ body {
 #es-garnier.es-garnier .es-kv__left--photoCtn {
   margin-top: -32px;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__left--photoCtn {
     position: absolute;
     bottom: 0;
@@ -89,12 +89,12 @@ body {
     z-index: 1;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__left--photoCtn {
     left: 15px;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__left {
     width: 57%;
   }
@@ -103,7 +103,7 @@ body {
   background-color: #d9ecca;
   margin: 16px;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__right {
     width: 43%;
     position: relative;
@@ -126,12 +126,12 @@ body {
   transform: translateY(-50%);
   left: -103px;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv .es-line--2 {
     display: none;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv .es-line--1 {
     transform: rotate(180deg);
     height: 100%;
@@ -148,14 +148,14 @@ body {
   margin-left: auto;
   margin-right: 0;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__logoCtn {
     width: 50%;
     max-width: 140px;
     margin-right: 5%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__logoCtn {
     max-width: 111px;
     margin-right: 4%;
@@ -166,7 +166,7 @@ body {
   margin-top: -48px;
   margin-inline: auto;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__textCtn {
     margin-top: -41px;
     margin-right: -17px;
@@ -179,7 +179,7 @@ body {
     margin-right: 1px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__textCtn {
     max-width: 243px;
     margin-top: -37px;
@@ -191,20 +191,17 @@ body {
   font-size: 32px;
   line-height: 1.2;
   text-align: center;
-  background-image: url('../images/gradient.png');
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-size: cover;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__text {
     font-size: 24px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__text {
     font-size: 22px;
-    margin-left: 36px;
+    margin-left: 12px;
     text-align: right;
     margin-right: 4px;
   }
@@ -216,12 +213,12 @@ body {
   font-style: italic;
   text-align: left;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__text span {
     font-size: 20px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__text span {
     font-size: 18px;
     font-weight: 400;
@@ -231,7 +228,7 @@ body {
   position: relative;
   z-index: 1;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__packsCtn {
     position: absolute;
     bottom: -16%;
@@ -239,7 +236,7 @@ body {
     width: 74%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__packsCtn {
     bottom: -10%;
     left: -26%;
@@ -261,13 +258,13 @@ body {
   z-index: -1;
   max-width: 90%;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__pill {
     bottom: 8%;
     right: 4%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-kv__pill {
     max-width: 220px;
     top: 26%;
@@ -285,13 +282,13 @@ body {
   padding: 32px 16px;
   gap: 8px;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-results__BA {
     flex-direction: row;
     align-items: flex-start;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-results__BA {
     padding: 48px 32px;
   }
@@ -336,7 +333,7 @@ body {
   font-size: 16px;
   line-height: 1;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-results {
     margin-top: 16px;
   }
@@ -346,17 +343,17 @@ body {
   margin-block: 8px;
   padding: 32px 16px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features {
     padding: 48px 32px;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__top {
     display: flex;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__header {
     max-width: 47%;
   }
@@ -410,13 +407,16 @@ body {
   font-weight: 800;
   margin-block: 32px;
 }
-@media (min-width: 576px) {
+#es-garnier.es-garnier .es-features__4-bg {
+  display: none;
+}
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__funky {
     display: flex;
     flex-flow: row-reverse;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__funky {
     font-size: 20px;
     justify-content: space-between;
@@ -426,28 +426,28 @@ body {
   max-width: 250px;
   margin: auto;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__3 {
     display: flex;
     flex-direction: row-reverse;
     gap: 8px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__3 {
     margin: unset;
     position: relative;
     margin-top: -58px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__arrowCtn {
     position: absolute;
     top: -24%;
     right: -53%;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__4 {
     max-width: 47%;
     display: flex;
@@ -455,19 +455,17 @@ body {
     justify-content: center;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__4 {
     position: relative;
     width: 50%;
   }
-  #es-garnier.es-garnier .es-features__4:before {
-    content: '';
+
+  #es-garnier.es-garnier .es-features__4-bg {
+    display: block;
     height: 215px;
     width: 80px;
-    background-image: url('../images/bracket.svg');
     position: absolute;
-    background-size: contain;
-    background-repeat: no-repeat;
     top: 4%;
     left: -21%;
   }
@@ -483,7 +481,7 @@ body {
   margin: auto;
   max-height: 200px;
 }
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 1200px) and (max-width: 767px) {
   #es-garnier.es-garnier .es-features__arrow {
     max-height: 150px;
     margin-top: -66%;
@@ -493,7 +491,7 @@ body {
   color: #8168ab;
   font-size: 40px;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__percent {
     font-size: 26px;
   }
@@ -511,13 +509,13 @@ body {
 #es-garnier.es-garnier .es-features__square img:hover {
   scale: 1.1;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__square {
     width: 150px;
     height: 150px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__square {
     width: 200px;
     height: 200px;
@@ -538,14 +536,14 @@ body {
   border-radius: 99px 0 0 99px;
   transform: translateY(100%);
 }
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 1200px) and (max-width: 767px) {
   #es-garnier.es-garnier .es-features__square:after {
     width: 50px;
     height: 100px;
     bottom: 25%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__square:after {
     width: 80px;
     height: 160px;
@@ -559,12 +557,12 @@ body {
   left: 18%;
   z-index: 3;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__pill {
     top: 50%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-features__pill {
     scale: 1.3;
     top: 40%;
@@ -585,14 +583,14 @@ body {
   gap: 8px;
   margin-block: 24px;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-use__steps {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-use__steps {
     justify-content: center;
   }
@@ -604,15 +602,15 @@ body {
   align-items: center;
   gap: 24px;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-use__single {
     flex-basis: 50%;
     max-width: 49%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-use__single {
-    flex-basis: 25%;
+    flex-basis: 24%;
     max-width: 175px;
   }
 }
@@ -649,19 +647,34 @@ body {
 #es-garnier.es-garnier .es-banner {
   background-color: #e1ebea;
 }
-@media (min-width: 576px) {
+
+#es-garnier.es-garnier .es-banner__img-bg {
+  display: none;
+}
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-banner {
-    background-image: url('../images/banner.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    position: relative;
+  }
+
+  #es-garnier.es-garnier .es-banner__img-bg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-banner {
     height: 400px;
     padding: 32px 64px;
     position: relative;
+  }
+  #es-garnier.es-garnier .es-banner__img-bg {
+    top: 50px;
   }
   #es-garnier.es-garnier .es-banner:before {
     content: '';
@@ -700,20 +713,18 @@ body {
 #es-garnier.es-garnier .es-banner__packs {
   position: relative;
 }
-#es-garnier.es-garnier .es-banner__packs:before {
+#es-garnier.es-garnier .es-banner__packs-bg {
   position: absolute;
   left: 8%;
   top: 0%;
   content: '';
   display: block;
   width: 100px;
-  height: 100px;
-  background-image: url('../images/badge.png');
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: auto;
   animation: scale-in-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-@media (min-width: 576px) {
+
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-banner__packs {
     display: none;
   }
@@ -721,12 +732,12 @@ body {
 #es-garnier.es-garnier .es-banner__brand {
   padding-block: 32px;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-banner__brand {
     padding-block: unset;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-banner__brand {
     height: 400px;
     display: flex;
@@ -737,14 +748,16 @@ body {
   }
 }
 #es-garnier.es-garnier .es-banner__box {
+  z-index: 1;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 32px;
   border: 4px solid #f0f7e6;
-  box-shadow: inset 0 0 1.3rem #d0ecb6, 0 0 1.3rem #d0ecb6;
+  box-shadow: inset 0 0 20.8px #d0ecb6, 0 0 20.8px #d0ecb6;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-banner__box {
     border: none;
     box-shadow: none;
@@ -759,12 +772,9 @@ body {
   text-transform: uppercase;
   font-size: 26px;
   font-weight: 400;
-  background-image: url('../images/gradient.png');
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-size: cover;
 }
-@media (min-width: 576px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-banner__new {
     font-size: 24px;
   }
@@ -773,7 +783,8 @@ body {
   max-width: 300px;
   margin-block: -24px;
 }
-@media (min-width: 576px) {
+
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-banner__img {
     max-width: 200px;
     margin-top: -16px;
@@ -788,11 +799,29 @@ body {
   text-align: center;
   color: #8168ab;
 }
-@media (min-width: 576px) {
+#es-garnier.es-garnier .es-banner__text-bg {
+  display: none;
+}
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-banner__text {
     font-size: 26px;
     position: relative;
     max-width: 200px;
+  }
+  #es-garnier.es-garnier .es-banner__text-wrapper {
+    position: relative;
+  }
+
+  #es-garnier.es-garnier .es-banner__text-bg {
+    display: block;
+    position: absolute;
+    right: -32px;
+    top: -10px;
+    content: '';
+    display: block;
+    width: 60px;
+    height: auto;
+    animation: scale-in-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   }
   #es-garnier.es-garnier .es-banner__text:before {
     position: absolute;
@@ -802,7 +831,6 @@ body {
     display: block;
     width: 60px;
     height: 60px;
-    background-image: url('../images/badge.png');
     background-size: contain;
     background-repeat: no-repeat;
     animation: scale-in-center 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -811,6 +839,12 @@ body {
 #es-garnier.es-garnier .es-footer {
   padding-inline: 16px;
   padding-block: 32px;
+  padding-top: 70px;
+}
+@media screen and (min-width: 1200px) {
+  #es-garnier.es-garnier .es-footer {
+    padding-top: 0px;
+  }
 }
 #es-garnier.es-garnier .es-footer p {
   font-size: 12px;
@@ -830,7 +864,7 @@ body {
   margin: 0 auto;
   max-width: 150px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #es-garnier.es-garnier .es-footer__img {
     margin-inline: auto;
   }
